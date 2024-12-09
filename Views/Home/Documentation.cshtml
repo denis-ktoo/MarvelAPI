@@ -1,0 +1,193 @@
+﻿@{
+    ViewData["Title"] = "Documentation";
+}
+
+<head>
+    <link rel="stylesheet" href="~/css/styles.css" asp-append-version="true" />
+</head>
+
+<div class="documentation-container">
+    <!-- Sidebar with links -->
+    <div class="sidebar">
+        <!-- Sidebar Menu -->
+        <h2><a href="/Home/Documentation">Resources</a></h2>
+        <ul>
+            <li><a href="#" onclick="showContent('characters')">Characters</a></li>
+            <li><a href="#" onclick="showContent('movies')">Movies</a></li>
+            <li><a href="#" onclick="showContent('series')">Series</a></li>
+            <li><a href="#" onclick="showContent('planets')">Planets</a></li>
+        </ul>
+    </div>
+
+    <!-- Main content area -->
+    <div class="content" id="content-area">
+        <h2>Welcome to MarvelAPI Documentation</h2>
+        <p>Your gateway to structured Marvel Universe data—characters, movies, planets, and series. Perfect for developers and Marvel fans alike!</p>
+        
+        <p>MarvelAPI provides RESTful access to categorized data via HTTP requests, delivering structured JSON responses. Use this guide to explore and interact with its resources effectively.</p>
+
+        <p>We provide access to several core Marvel resources:</p>
+        <ul>
+            <li><strong>Characters:</strong> Information about the superheroes and villains in the Marvel Universe, including their names, aliases, affiliations, and home planets.</li>
+            <li><strong>Movies:</strong> Data on the Marvel Cinematic Universe (MCU) movies, including release years, directors, and cast details.</li>
+            <li><strong>Planets:</strong> Details about the different planets and realms in the Marvel Universe, such as Asgard, Xandar, and Earth.</li>
+            <li><strong>Series:</strong> TV series and mini-series from the Marvel Universe, including show names, seasons, and main characters.</li>
+        </ul>
+
+        <p>Each category has its own unique endpoint that you can interact with to retrieve data. Here’s how you can get started:</p>
+
+        <h2>Base URL</h2>
+        <p>The Base URL is the root URL for all API requests. If you ever make a request and receive a 404 NOT FOUND response, it's a good idea to check the Base URL first.</p>
+        <p>The Base URL for the MarvelApi is:</p>
+        <pre class="json-response">https://localhost:7119/api/</pre>
+        <p>The documentation below assumes you are prepending the Base URL to the endpoints in order to make requests.</p>
+
+
+        <h2>Example Request:</h2>
+        <pre class="json-response">https://localhost:7119/api/planets/2</pre>
+        <p>This request will fetch details about the planet <strong>Asgard</strong>, the realm of the gods. The response will include key information such as the planet's climate, terrain, population, and any characters associated with it. Here is an example of the expected response:</p>
+
+        <pre class="json-response">
+            {
+                "id": 2,
+                "name": "Asgard",
+                "climate": "Temperate (magical)",
+                "terrain": "Majestic cities, mountains",
+                "population": 500000,
+                "characters": [
+                    "https://localhost:7119/api/characters/3/",
+                    "https://localhost:7119/api/characters/30/"
+                ]
+            }
+        </pre>
+
+        <p>The MarvelAPI uses standard HTTP methods for interactions:</p>
+        <p>However, only <strong>GET</strong> requests are allowed to fetch data. Other HTTP methods such as <strong>POST</strong>, <strong>PUT</strong>, and <strong>DELETE</strong> are not supported:</p>
+        <ul>
+            <li><strong>GET:</strong> Retrieve data from the API. For example, you can use a GET request to fetch a list of characters, planets, movies, or series.</li>
+            <li><strong>POST:</strong> Not allowed. The API does not support submitting new data, such as creating characters or adding movies.</li>
+            <li><strong>PUT:</strong> Not allowed. The API does not support updating existing data, such as modifying character details.</li>
+            <li><strong>DELETE:</strong> Not allowed. The API does not support removing data, such as deleting characters or movies.</li>
+        </ul>
+
+
+        <p>Here are some additional examples of API requests you can try:</p>
+        <ul>
+            <li>Get details of a specific character: <pre class="json-response">https://localhost:7119/api/characters/1</pre></li>
+            <li>Get a list of all movies: <pre class="json-response">https://localhost:7119/api/movies</pre></li>
+            <li>Get details about a planet: <pre class="json-response">https://localhost:7119/api/planets/3</pre></li>
+            <li>Get a list of all series: <pre class="json-response">https://localhost:7119/api/series</pre></li>
+        </ul>
+
+        <p>Select a category from the left menu to explore resource details, including available fields, and request/response examples.</p>
+    </div>
+</div>
+
+<!-- JavaScript for dynamic content -->
+<script>
+        function showContent(section) {
+            const content = {
+                characters: `
+                    <h2>Characters</h2>
+                    <p>Marvel is home to some of the most legendary characters in the comic book world, each with their unique abilities, complex stories, and rich histories. From the genius inventor Tony Stark, who dons the Iron Man armor to save the world, to Peter Parker, the friendly neighborhood Spider-Man, Marvel's roster of heroes has captured the hearts of fans worldwide. Characters like Thor, the mighty God of Thunder, Black Widow, the skilled spy and warrior, and Captain America, the symbol of freedom, are just a few of the iconic figures that make the Marvel Universe so captivating.</p>
+                    <p>In addition to these iconic heroes, the Marvel Universe also introduces characters with diverse backgrounds and unique powers. The Hulk, a tragic figure born from a scientific experiment gone wrong, represents both raw power and the struggle for inner peace. Doctor Strange, once a renowned surgeon, became the Sorcerer Supreme, wielding magic to protect Earth from mystical threats. Black Panther, the king of the advanced African nation of Wakanda, uses his enhanced abilities and unmatched intellect to protect both his people and the world.</p>
+                    <p>Marvel also features characters like Daredevil, whose blindness is countered by enhanced senses, and Hawkeye, a master archer who never misses his target. These characters, along with many others, bring depth and variety to the Marvel Universe. Whether they are fighting powerful villains or grappling with personal struggles, these heroes inspire audiences with their courage, resilience, and commitment to justice.</p>
+                    <ul>
+                        <li>Iron Man (Tony Stark)</li>
+                        <li>Spider-Man (Peter Parker)</li>
+                        <li>Thor (God of Thunder)</li>
+                    </ul>
+                    <p>Example Request:</p>
+                    <pre class="json-response">https://localhost:7119/api/characters/1</pre>
+                    <pre class="json-response">
+                        {
+                            "id": 1,
+                            "name": "Tony Stark",
+                            "alias": "Iron Man",
+                            "affiliation": "Avengers",
+                            "homePlanetID": 1,
+                            "homePlanet": "Earth"
+                        }
+                    </pre>
+                `,
+                movies: `
+                    <h2>Movies</h2>
+                    <p>The MCU, starting with Iron Man (2008), revolutionized filmmaking with its interconnected superhero stories. This shared universe brings together iconic heroes, villains, and moments, culminating in epic team-ups like The Avengers (2012).</p>
+                    <p>Films like Black Panther (2018) introduced the advanced nation of Wakanda and its king, T'Challa, while Avengers: Endgame (2019) marked the end of major story arcs and the beginning of new ones.</p>
+                    <p>The MCU blends action, science fiction, and drama, exploring themes of leadership, sacrifice, identity, and unity, while continuously expanding with new characters and stories.</p>
+                    <p>Examples of Marvel Movies:</p>
+                    <ul>
+                        <li>Iron Man (2008)</li>
+                        <li>The Avengers (2012)</li>
+                        <li>Black Panther (2018)</li>
+                    </ul>
+                    <p>Example Request:</p>
+                    <pre class="json-response">https://localhost:7119/api/movies/1</pre>
+                    <pre class="json-response">
+                        {
+                            "id": 1,
+                            "title": "Iron Man",
+                            "releaseYear": 2008,
+                            "director": "Jon Favreau"
+                        }
+                    </pre>
+                `,
+                series: `
+                    <h2>Series</h2>
+                    <p>The Marvel Cinematic Universe has extended its storytelling through captivating TV shows, allowing fans to dive deeper into character-driven stories and explore new narratives. Marvel series provide fresh perspectives that complement the larger films.</p>
+                    <p>One of the first MCU series, <strong>Agents of S.H.I.E.L.D.</strong> (2013), explored the aftermath of <strong>The Avengers</strong> and the agents protecting the world from supernatural threats. Later series like <strong>Loki</strong> (2021) and <strong>WandaVision</strong> (2021) introduced new concepts such as time travel, alternate realities, and expanded the MCU with new characters and exciting storylines.</p>
+                    <p>Shows like Hawkeye (2021) and Moon Knight (2022) introduced fresh characters and explored deeper aspects of familiar heroes and anti-heroes. With platforms like Disney+, Marvel has released high-budget series that match the cinematic quality of the films.</p>
+                    <p>Marvel series often explore themes like identity, grief, friendship, and heroism, offering a more nuanced look at what it means to be a superhero. They complement the films by spotlighting side characters, alternate timelines, and universes, adding depth to the MCU.</p>
+                    <p>Examples of Marvel Series:</p>
+                    <ul>
+                        <li>WandaVision</li>
+                        <li>Loki</li>
+                        <li>The Falcon and the Winter Soldier</li>
+                    </ul>
+                    <p>Example Request:</p>
+                    <pre class="json-response">https://localhost:7119/series/1</pre>
+                    <pre class="json-response">
+                        {
+                            "id": 1,
+                            "title": "Agents of S.H.I.E.L.D.",
+                            "description": "A group of agents investigate strange occurrences.",
+                            "seasons": 7,
+                            "releaseYear": 2013
+                        }
+                    </pre>
+                `,
+                planets: `
+                    <h2>Planets</h2>
+                    <p>The Marvel Universe spans across galaxies, with many planets, moons, and realms playing key roles in the MCU. Each planet has its own culture, geography, and significance, from the mystical Asgard to the vibrant Xandar.</p>
+                    <p>Asgard, home of the Asgardian gods and Thor, is a central realm in Marvel's lore. Earth, the primary MCU setting, is where heroes like the Avengers defend against threats. Other planets like Xandar and Tatooine add depth and diversity to the Marvel Universe.</p>
+                    <p>Each new Marvel film and show introduces more planets with unique cultures, climates, and ecosystems, expanding the MCU's vast storytelling. Some serve as battlegrounds, others as quiet havens, each adding complexity to Marvel's intricate world.</p>
+                    <p>As the MCU grows, new planets will continue to emerge, each contributing to the expansive history and characters of Marvel's universe.</p>
+                    <p>Examples of Marvel Planets:</p>
+                    <ul>
+                        <li>Asgard - Realm of the gods</li>
+                        <li>Xandar - Home of the Nova Corps</li>
+                        <li>Earth - Our very own planet!</li>
+                    </ul>
+                    <p>Example Request:</p>
+                    <pre class="json-response">https://localhost:7119/api/planets/2</pre>
+                    <pre class="json-response">
+                        {
+                            "id": 2,
+                            "name": "Asgard",
+                            "climate": "Temperate (magical)",
+                            "terrain": "Majestic cities, mountains",
+                            "population": 500000,
+                            "characters": [
+                                "https://localhost:7119/api/characters/3/",
+                                "https://localhost:7119/api/characters/30/"
+                              ]
+                        }
+                    </pre>
+                `,
+            };
+
+            // Update the content area with dynamic content
+            const contentArea = document.getElementById('content-area');
+            contentArea.innerHTML = content[section] || '<p>Content not available.</p>';
+        }
+</script>

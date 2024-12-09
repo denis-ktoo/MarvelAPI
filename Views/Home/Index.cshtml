@@ -1,0 +1,108 @@
+﻿@{
+    ViewData["Title"] = "Home";
+}
+
+<style>
+    a {
+        color: white;
+        text-decoration: underline;
+        text-decoration-color: white;
+    }
+    a:hover {
+        color: #d3d3d3;
+    }
+
+    input:focus {
+        outline: none; /* Removes the default focus outline */
+    }
+</style>
+
+<div style="text-align: center; margin-bottom: 30px;">
+    <h2 class="display-10" style="color: #ffd700">MarvelAPI</h2>
+    <div>
+        <h4 style="color: #ff4500">All the Marvel data you've ever wanted to explore:</h4>
+        <p style="font-size: medium; color: #FFFFFF; font-size: 18px">
+            Characters, Movies, Planets, and Series!<br />
+            Explore the Marvel Universe with data from iconic stories.<br />
+            Now featuring detailed information from the Avengers and beyond!<br />
+            Try it now by making a request below.
+        </p>
+    </div>
+</div>
+
+<h4 style="text-align: center;">API Request:</h4>
+
+<!-- API request section -->
+<div style="display: flex; justify-content: center; align-items: center;">
+    <label for="entityPath"
+           style="
+            background-color: #343a40;
+            color: #ffffff;
+            padding: 10px 15px;
+            border-radius: 5px 0 0 5px;
+            cursor: pointer;
+            font-size: 14px;
+            border: 1px solid #343a40;
+        ">
+        https://localhost:7119/api/
+    </label>
+
+    <!-- Input field -->
+    <input type="text"
+           id="entityPath"
+           style="
+            width: 55%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #343a40;
+            border-left: none;
+            border-right: none;
+        "
+           placeholder="characters/1" />
+
+    <button id="fetchEntity"
+            onclick="fetchEntity()"
+            style="
+            background-color: #343a40;
+            color: #ffffff;
+            padding: 10px 20px;
+            border: 1px solid #343a40;
+            border-radius: 0 5px 5px 0;
+            cursor: pointer;
+            font-size: 16px;
+        ">
+        Request
+    </button>
+</div>
+
+<small style="padding-left: 13%;">
+    Need a hint? try requesting
+    <a href="#" onclick="fetchEntityDirect('characters/1'); return false;"><i>characters/1</i></a>
+    or
+    <a href="#" onclick="fetchEntityDirect('planets/1'); return false;"><i>planets/1</i></a>
+    or
+    <a href="#" onclick="fetchEntityDirect('movies/1'); return false;"><i>movies/1</i></a>
+    or
+    <a href="#" onclick="fetchEntityDirect('series/1'); return false;" ><i>series/1</i></a>
+</small>
+
+<!-- Result section -->
+<h4 style="margin-top: 20px; padding-left: 13%">Result:</h4>
+<div id="entityDetails"
+        style="
+        margin: 20px auto;
+        height: 400px;
+        width: 75%;
+        overflow-y: auto;
+        border: 1px solid #ccc;
+        background-color: #ffffff;
+        color: #343a40;
+        font-size: small;
+        padding: 10px;
+        box-sizing: border-box;
+    ">
+    <!-- JSON output will be displayed here -->
+</div>
+
+<!-- Reference to JavaScript file -->
+<script src="~/js/scripts.js"></script>
