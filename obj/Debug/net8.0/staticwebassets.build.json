@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "OD6pEaX1FxCqKMfoQ0uxWTDgI+Cgal2aOvJiPPld6iM=",
+  "Hash": "7WyVGI08JV7eKP/75L91CB0IBs8h4eOSdB9iI0QuleI=",
   "Source": "MarvelAPI",
   "BasePath": "_content/MarvelAPI",
   "Mode": "Default",
@@ -115,8 +115,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "u8qto4kemd",
-      "Integrity": "HpKlORY9/u9bVjEJwYLcDY0wus4wPnhBPDiu6xbTaVA=",
+      "Fingerprint": "cggegkm0pb",
+      "Integrity": "zIrpAcSjBI9w0Itn8LTEMuphj5YhLL7TcOtQTkwzAv0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\scripts.js"
@@ -1670,6 +1670,51 @@
       ]
     },
     {
+      "Route": "js/scripts.cggegkm0pb.js",
+      "AssetFile": "C:\\Users\\Denis\\source\\MarvelAPI\\wwwroot\\js\\scripts.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1037"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zIrpAcSjBI9w0Itn8LTEMuphj5YhLL7TcOtQTkwzAv0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Dec 2024 19:02:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cggegkm0pb"
+        },
+        {
+          "Name": "label",
+          "Value": "js/scripts.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zIrpAcSjBI9w0Itn8LTEMuphj5YhLL7TcOtQTkwzAv0="
+        }
+      ]
+    },
+    {
       "Route": "js/scripts.js",
       "AssetFile": "C:\\Users\\Denis\\source\\MarvelAPI\\wwwroot\\js\\scripts.js",
       "Selectors": [],
@@ -1688,11 +1733,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"HpKlORY9/u9bVjEJwYLcDY0wus4wPnhBPDiu6xbTaVA=\""
+          "Value": "\"zIrpAcSjBI9w0Itn8LTEMuphj5YhLL7TcOtQTkwzAv0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 28 Nov 2024 12:46:45 GMT"
+          "Value": "Mon, 09 Dec 2024 19:02:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1702,52 +1747,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-HpKlORY9/u9bVjEJwYLcDY0wus4wPnhBPDiu6xbTaVA="
-        }
-      ]
-    },
-    {
-      "Route": "js/scripts.u8qto4kemd.js",
-      "AssetFile": "C:\\Users\\Denis\\source\\MarvelAPI\\wwwroot\\js\\scripts.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1037"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"HpKlORY9/u9bVjEJwYLcDY0wus4wPnhBPDiu6xbTaVA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 28 Nov 2024 12:46:45 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "u8qto4kemd"
-        },
-        {
-          "Name": "label",
-          "Value": "js/scripts.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-HpKlORY9/u9bVjEJwYLcDY0wus4wPnhBPDiu6xbTaVA="
+          "Value": "sha256-zIrpAcSjBI9w0Itn8LTEMuphj5YhLL7TcOtQTkwzAv0="
         }
       ]
     },

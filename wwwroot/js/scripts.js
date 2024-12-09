@@ -2,7 +2,7 @@
 // Function to fetch entity based on a specified endpoint
 async function fetchEntityDirect(endpoint) {
     try {
-        const response = await fetch(`https://localhost:7119/api/${endpoint}`);
+        const response = await fetch(`https://localhost:7204/api/${endpoint}`);
         if (!response.ok) {
             throw new Error('Entity not found');
         }
