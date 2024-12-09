@@ -31,7 +31,7 @@ namespace MarvelAPI.Controllers
                 planet.Terrain,
                 planet.Population,
                 // List of character URLs
-                characters = planet.Characters.Select(c => $"https://localhost:7119/api/characters/{c.Id}/").ToList()
+                characters = planet.Characters.Select(c => $"https://localhost:7204/api/characters/{c.Id}/").ToList()
             });
 
             return Ok(planetsWithUrls);
@@ -55,7 +55,7 @@ namespace MarvelAPI.Controllers
                 planet.Terrain,
                 planet.Population,
                 // List of character URLs
-                characters = planet.Characters.Select(c => $"https://localhost:7119/api/characters/{c.Id}/").ToList()
+                characters = planet.Characters.Select(c => $"https://localhost:7204/api/characters/{c.Id}/").ToList()
             };
 
             return Ok(planetWithUrls);

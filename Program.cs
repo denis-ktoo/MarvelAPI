@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using MarvelAPI.Data;
 using MarvelAPI.Repositories;
+using MarvelAPI.Middleware;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -29,6 +30,9 @@ if (!app.Environment.IsDevelopment())
 
 // Seed the database
 SeedData.Initialize(app.Services);
+
+// Add the RestrictHttpMethodsMiddleware
+app.UseMiddleware<RestrictHttpMethodsMiddleware>();
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
