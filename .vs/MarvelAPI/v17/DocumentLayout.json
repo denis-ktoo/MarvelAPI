@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{9C4CC639-0CC9-4F87-AEF0-62030BFFDCBB}|MarvelAPI.csproj|solutionrelative:wwwroot\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C4CC639-0CC9-4F87-AEF0-62030BFFDCBB}|MarvelAPI.csproj|c:\\users\\denis\\source\\marvelapi\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9C4CC639-0CC9-4F87-AEF0-62030BFFDCBB}|MarvelAPI.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9C4CC639-0CC9-4F87-AEF0-62030BFFDCBB}|MarvelAPI.csproj|c:\\users\\denis\\source\\marvelapi\\views\\home\\documentation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9C4CC639-0CC9-4F87-AEF0-62030BFFDCBB}|MarvelAPI.csproj|solutionrelative:views\\home\\documentation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C4CC639-0CC9-4F87-AEF0-62030BFFDCBB}|MarvelAPI.csproj|c:\\users\\denis\\source\\marvelapi\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9C4CC639-0CC9-4F87-AEF0-62030BFFDCBB}|MarvelAPI.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9C4CC639-0CC9-4F87-AEF0-62030BFFDCBB}|MarvelAPI.csproj|c:\\users\\denis\\source\\marvelapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -146,7 +146,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Denis\\source\\MarvelAPI\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
@@ -154,8 +154,7 @@
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAFEAAAAAAAAAAAAAAGMAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-09T19:00:34.537Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T19:00:34.537Z"
             },
             {
               "$type": "Document",
@@ -189,7 +188,7 @@
               "RelativeDocumentMoniker": "wwwroot\\css\\styles.css",
               "ToolTip": "C:\\Users\\Denis\\source\\MarvelAPI\\wwwroot\\css\\styles.css",
               "RelativeToolTip": "wwwroot\\css\\styles.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADkAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-12-09T18:57:31.302Z",
               "EditorCaption": ""
@@ -256,13 +255,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Documentation.cshtml",
               "DocumentMoniker": "C:\\Users\\Denis\\source\\MarvelAPI\\Views\\Home\\Documentation.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Documentation.cshtml",
               "ToolTip": "C:\\Users\\Denis\\source\\MarvelAPI\\Views\\Home\\Documentation.cshtml",
               "RelativeToolTip": "Views\\Home\\Documentation.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACkAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-09T18:34:35.781Z",
               "EditorCaption": ""
@@ -469,8 +468,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAmwCQAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T18:15:27.29Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-09T18:15:27.29Z"
             },
             {
               "$type": "Document",
