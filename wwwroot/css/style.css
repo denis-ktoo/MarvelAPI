@@ -1,0 +1,71 @@
+﻿.resources-container {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 80vh;
+}
+
+.sidebar {
+    width: 20%;
+    background-color: #3f3f3f;
+    padding: 20px;
+}
+
+.about-section {
+    flex: 1;
+    padding: 20px;
+}
+
+.about-section h1 {
+    color: #cc0000;
+}
+
+.about-section h2 {
+    margin-top: 20px;
+    color: #cc0000;
+}
+
+.about-section ul {
+    list-style: square;
+    margin-left: 20px;
+}
+
+.about-section p {
+    margin-bottom: 10px;
+}
+
+/* Statistics container inside sidebar */
+.statistics-container h4 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #cc0000;
+    font-weight: bold;
+}
+
+.statistics-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.statistics-container li {
+    margin: 5px 0;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+/* Mobile Responsiveness */
+@media screen and (max-width: 768px) {
+    .resources-container {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .content {
+        width: 100%;
+    }
+}
