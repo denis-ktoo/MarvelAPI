@@ -115,3 +115,4 @@ C:\Users\Denis\source\MarvelAPI\obj\Debug\net8.0\MarvelAPI.pdb
 C:\Users\Denis\source\MarvelAPI\obj\Debug\net8.0\MarvelAPI.genruntimeconfig.cache
 C:\Users\Denis\source\MarvelAPI\obj\Debug\net8.0\ref\MarvelAPI.dll
 C:\Users\Denis\source\MarvelAPI\obj\Debug\net8.0\MarvelAPI.sourcelink.json
+C:\Users\Denis\source\MarvelAPI\bin\Debug\net8.0\MarvelAPI.staticwebassets.runtime.json

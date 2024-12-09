@@ -39,12 +39,12 @@
         <h2>Base URL</h2>
         <p>The Base URL is the root URL for all API requests. If you ever make a request and receive a 404 NOT FOUND response, it's a good idea to check the Base URL first.</p>
         <p>The Base URL for the MarvelApi is:</p>
-        <pre class="json-response">https://localhost:7119/api/</pre>
+        <pre class="json-response">https://localhost:7204/api/</pre>
         <p>The documentation below assumes you are prepending the Base URL to the endpoints in order to make requests.</p>
 
 
         <h2>Example Request:</h2>
-        <pre class="json-response">https://localhost:7119/api/planets/2</pre>
+        <pre class="json-response">https://localhost:7204/api/planets/2</pre>
         <p>This request will fetch details about the planet <strong>Asgard</strong>, the realm of the gods. The response will include key information such as the planet's climate, terrain, population, and any characters associated with it. Here is an example of the expected response:</p>
 
         <pre class="json-response">
@@ -55,8 +55,8 @@
                 "terrain": "Majestic cities, mountains",
                 "population": 500000,
                 "characters": [
-                    "https://localhost:7119/api/characters/3/",
-                    "https://localhost:7119/api/characters/30/"
+                    "https://localhost:7204/api/characters/3/",
+                    "https://localhost:7204/api/characters/30/"
                 ]
             }
         </pre>
@@ -73,10 +73,10 @@
 
         <p>Here are some additional examples of API requests you can try:</p>
         <ul>
-            <li>Get details of a specific character: <pre class="json-response">https://localhost:7119/api/characters/1</pre></li>
-            <li>Get a list of all movies: <pre class="json-response">https://localhost:7119/api/movies</pre></li>
-            <li>Get details about a planet: <pre class="json-response">https://localhost:7119/api/planets/3</pre></li>
-            <li>Get a list of all series: <pre class="json-response">https://localhost:7119/api/series</pre></li>
+            <li>Get details of a specific character: <pre class="json-response">https://localhost:7204/api/characters/1</pre></li>
+            <li>Get a list of all movies: <pre class="json-response">https://localhost:7204/api/movies</pre></li>
+            <li>Get details about a planet: <pre class="json-response">https://localhost:7204/api/planets/3</pre></li>
+            <li>Get a list of all series: <pre class="json-response">https://localhost:7204/api/series</pre></li>
         </ul>
 
         <p>Select a category from the left menu to explore resource details, including available fields, and request/response examples.</p>
@@ -98,7 +98,7 @@
                         <li>Thor (God of Thunder)</li>
                     </ul>
                     <p>Example Request:</p>
-                    <pre class="json-response">https://localhost:7119/api/characters/1</pre>
+                    <pre class="json-response">https://localhost:7204/api/characters/1</pre>
                     <pre class="json-response">
                         {
                             "id": 1,
@@ -122,7 +122,7 @@
                         <li>Black Panther (2018)</li>
                     </ul>
                     <p>Example Request:</p>
-                    <pre class="json-response">https://localhost:7119/api/movies/1</pre>
+                    <pre class="json-response">https://localhost:7204/api/movies/1</pre>
                     <pre class="json-response">
                         {
                             "id": 1,
@@ -145,7 +145,7 @@
                         <li>The Falcon and the Winter Soldier</li>
                     </ul>
                     <p>Example Request:</p>
-                    <pre class="json-response">https://localhost:7119/series/1</pre>
+                    <pre class="json-response">https://localhost:7204/series/1</pre>
                     <pre class="json-response">
                         {
                             "id": 1,
@@ -169,7 +169,7 @@
                         <li>Earth - Our very own planet!</li>
                     </ul>
                     <p>Example Request:</p>
-                    <pre class="json-response">https://localhost:7119/api/planets/2</pre>
+                    <pre class="json-response">https://localhost:7204/api/planets/2</pre>
                     <pre class="json-response">
                         {
                             "id": 2,
@@ -178,8 +178,8 @@
                             "terrain": "Majestic cities, mountains",
                             "population": 500000,
                             "characters": [
-                                "https://localhost:7119/api/characters/3/",
-                                "https://localhost:7119/api/characters/30/"
+                            "https://localhost:7204/api/characters/3/",
+                            "https://localhost:7204/api/characters/30/"
                               ]
                         }
                     </pre>
