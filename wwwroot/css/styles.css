@@ -56,7 +56,6 @@
     font-size: small;
     overflow-x: auto;
     width: 100%;
-    white-space: pre-wrap; /* Ensure the formatting of the JSON is preserved */
 }
 
 /* Mobile Responsiveness */
