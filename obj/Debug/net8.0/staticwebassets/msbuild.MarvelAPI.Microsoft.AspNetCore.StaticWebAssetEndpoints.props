@@ -24,17 +24,17 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"prxkm1am3m"},{"Name":"integrity","Value":"sha256-9YFY3fZ9vWIoZlCCJBInHx93A/T7txSyQR/nrFKyJqE="},{"Name":"label","Value":"_content/MarvelAPI/css/style.css"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1078"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00229YFY3fZ9vWIoZlCCJBInHx93A/T7txSyQR/nrFKyJqE=\u0022"},{"Name":"Last-Modified","Value":"Tue, 26 Nov 2024 22:07:02 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/MarvelAPI/css/styles.br3qnzabis.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\styles.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"br3qnzabis"},{"Name":"integrity","Value":"sha256-eSfW6R3kH8feroiV6ow64p0bh\u002BeBvHd3Ee4TTQTlLZ4="},{"Name":"label","Value":"_content/MarvelAPI/css/styles.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1414"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022eSfW6R3kH8feroiV6ow64p0bh\u002BeBvHd3Ee4TTQTlLZ4=\u0022"},{"Name":"Last-Modified","Value":"Sun, 01 Dec 2024 21:35:41 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/MarvelAPI/css/styles.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\styles.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-eSfW6R3kH8feroiV6ow64p0bh\u002BeBvHd3Ee4TTQTlLZ4="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1414"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022eSfW6R3kH8feroiV6ow64p0bh\u002BeBvHd3Ee4TTQTlLZ4=\u0022"},{"Name":"Last-Modified","Value":"Sun, 01 Dec 2024 21:35:41 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-thayRaSilAHUqpLSbPTxvRqe4kkS9/Ncrn1qCpHAi/s="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1333"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022thayRaSilAHUqpLSbPTxvRqe4kkS9/Ncrn1qCpHAi/s=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Dec 2024 21:13:06 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MarvelAPI/css/styles.un7agtkzsz.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\styles.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"un7agtkzsz"},{"Name":"integrity","Value":"sha256-thayRaSilAHUqpLSbPTxvRqe4kkS9/Ncrn1qCpHAi/s="},{"Name":"label","Value":"_content/MarvelAPI/css/styles.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1333"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022thayRaSilAHUqpLSbPTxvRqe4kkS9/Ncrn1qCpHAi/s=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Dec 2024 21:13:06 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/MarvelAPI/images/marvel.o75v190uia.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\marvel.png'))</AssetFile>

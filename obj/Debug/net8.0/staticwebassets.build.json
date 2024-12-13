@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "7WyVGI08JV7eKP/75L91CB0IBs8h4eOSdB9iI0QuleI=",
+  "Hash": "NJxbenC620MNHE8RzXHwcoSu3RKxjdB6YrmBGB29Ats=",
   "Source": "MarvelAPI",
   "BasePath": "_content/MarvelAPI",
   "Mode": "Default",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "br3qnzabis",
-      "Integrity": "eSfW6R3kH8feroiV6ow64p0bh+eBvHd3Ee4TTQTlLZ4=",
+      "Fingerprint": "un7agtkzsz",
+      "Integrity": "thayRaSilAHUqpLSbPTxvRqe4kkS9/Ncrn1qCpHAi/s=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\styles.css"
@@ -1506,51 +1506,6 @@
       ]
     },
     {
-      "Route": "css/styles.br3qnzabis.css",
-      "AssetFile": "C:\\Users\\Denis\\source\\MarvelAPI\\wwwroot\\css\\styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1414"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"eSfW6R3kH8feroiV6ow64p0bh+eBvHd3Ee4TTQTlLZ4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 01 Dec 2024 21:35:41 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "br3qnzabis"
-        },
-        {
-          "Name": "label",
-          "Value": "css/styles.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-eSfW6R3kH8feroiV6ow64p0bh+eBvHd3Ee4TTQTlLZ4="
-        }
-      ]
-    },
-    {
       "Route": "css/styles.css",
       "AssetFile": "C:\\Users\\Denis\\source\\MarvelAPI\\wwwroot\\css\\styles.css",
       "Selectors": [],
@@ -1561,7 +1516,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1414"
+          "Value": "1333"
         },
         {
           "Name": "Content-Type",
@@ -1569,11 +1524,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"eSfW6R3kH8feroiV6ow64p0bh+eBvHd3Ee4TTQTlLZ4=\""
+          "Value": "\"thayRaSilAHUqpLSbPTxvRqe4kkS9/Ncrn1qCpHAi/s=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 01 Dec 2024 21:35:41 GMT"
+          "Value": "Mon, 09 Dec 2024 21:13:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1583,7 +1538,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-eSfW6R3kH8feroiV6ow64p0bh+eBvHd3Ee4TTQTlLZ4="
+          "Value": "sha256-thayRaSilAHUqpLSbPTxvRqe4kkS9/Ncrn1qCpHAi/s="
+        }
+      ]
+    },
+    {
+      "Route": "css/styles.un7agtkzsz.css",
+      "AssetFile": "C:\\Users\\Denis\\source\\MarvelAPI\\wwwroot\\css\\styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1333"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"thayRaSilAHUqpLSbPTxvRqe4kkS9/Ncrn1qCpHAi/s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Dec 2024 21:13:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "un7agtkzsz"
+        },
+        {
+          "Name": "label",
+          "Value": "css/styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-thayRaSilAHUqpLSbPTxvRqe4kkS9/Ncrn1qCpHAi/s="
         }
       ]
     },
