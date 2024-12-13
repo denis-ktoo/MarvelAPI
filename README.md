@@ -9,7 +9,7 @@ This project is an ASP.NET Core MVC Web API that allows you to explore Marvel Un
 - **Planets Endpoint:** Explore details of planets in the Marvel universe, such as their climate, population, and notable residents.
 - **Series Endpoint:** Fetch data about Marvel series, including number of seasons and released year.
 
-![Image](MarvelAPI/wwwroot/images/image.png)
+![Image](https://github.com/denis-ktoo/MarvelAPI/blob/master/wwwroot/images/image.png?raw=true)
 
 #### Example Endpoints
 
