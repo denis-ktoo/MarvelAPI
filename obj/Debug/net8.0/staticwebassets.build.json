@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "NJxbenC620MNHE8RzXHwcoSu3RKxjdB6YrmBGB29Ats=",
+  "Hash": "tKcbm5yPB/Y7vWnOH73wQ6G/78oKDvIRvIvm5fwZUUE=",
   "Source": "MarvelAPI",
   "BasePath": "_content/MarvelAPI",
   "Mode": "Default",
@@ -78,6 +78,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\Denis\\source\\MarvelAPI\\wwwroot\\images\\image.png",
+      "SourceId": "MarvelAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Denis\\source\\MarvelAPI\\wwwroot\\",
+      "BasePath": "_content/MarvelAPI",
+      "RelativePath": "images/image#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3a3ueosuet",
+      "Integrity": "G9r+ywaLWv4zAYpCQrANmvuHvFnTHhi1m6jpVza6HoM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\image.png"
     },
     {
       "Identity": "C:\\Users\\Denis\\source\\MarvelAPI\\wwwroot\\images\\marvel.png",
@@ -1584,6 +1605,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-thayRaSilAHUqpLSbPTxvRqe4kkS9/Ncrn1qCpHAi/s="
+        }
+      ]
+    },
+    {
+      "Route": "images/image.3a3ueosuet.png",
+      "AssetFile": "C:\\Users\\Denis\\source\\MarvelAPI\\wwwroot\\images\\image.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "212509"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"G9r+ywaLWv4zAYpCQrANmvuHvFnTHhi1m6jpVza6HoM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Dec 2024 07:36:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3a3ueosuet"
+        },
+        {
+          "Name": "label",
+          "Value": "images/image.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-G9r+ywaLWv4zAYpCQrANmvuHvFnTHhi1m6jpVza6HoM="
+        }
+      ]
+    },
+    {
+      "Route": "images/image.png",
+      "AssetFile": "C:\\Users\\Denis\\source\\MarvelAPI\\wwwroot\\images\\image.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "212509"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"G9r+ywaLWv4zAYpCQrANmvuHvFnTHhi1m6jpVza6HoM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Dec 2024 07:36:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-G9r+ywaLWv4zAYpCQrANmvuHvFnTHhi1m6jpVza6HoM="
         }
       ]
     },

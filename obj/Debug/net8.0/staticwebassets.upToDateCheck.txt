@@ -1,6 +1,7 @@
 wwwroot\css\site.css
 wwwroot\css\style.css
 wwwroot\css\styles.css
+wwwroot\images\image.png
 wwwroot\images\marvel.png
 wwwroot\js\scripts.js
 wwwroot\js\site.js

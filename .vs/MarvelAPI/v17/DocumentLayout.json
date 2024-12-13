@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Denis\\source\\MarvelAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9C4CC639-0CC9-4F87-AEF0-62030BFFDCBB}|MarvelAPI.csproj|c:\\users\\denis\\source\\marvelapi\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{9C4CC639-0CC9-4F87-AEF0-62030BFFDCBB}|MarvelAPI.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9C4CC639-0CC9-4F87-AEF0-62030BFFDCBB}|MarvelAPI.csproj|c:\\users\\denis\\source\\marvelapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9C4CC639-0CC9-4F87-AEF0-62030BFFDCBB}|MarvelAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -122,7 +126,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 31,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -146,7 +150,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\Denis\\source\\MarvelAPI\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "C:\\Users\\Denis\\source\\MarvelAPI\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2024-12-13T08:35:30.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Denis\\source\\MarvelAPI\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
@@ -158,7 +175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "scripts.js",
               "DocumentMoniker": "C:\\Users\\Denis\\source\\MarvelAPI\\wwwroot\\js\\scripts.js",
               "RelativeDocumentMoniker": "wwwroot\\js\\scripts.js",
@@ -170,7 +187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "site.js",
               "DocumentMoniker": "C:\\Users\\Denis\\source\\MarvelAPI\\wwwroot\\js\\site.js",
               "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
@@ -182,7 +199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "styles.css",
               "DocumentMoniker": "C:\\Users\\Denis\\source\\MarvelAPI\\wwwroot\\css\\styles.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\styles.css",
@@ -194,7 +211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "MarvelAPI.csproj",
               "DocumentMoniker": "C:\\Users\\Denis\\source\\MarvelAPI\\MarvelAPI.csproj",
               "RelativeDocumentMoniker": "MarvelAPI.csproj",
@@ -206,7 +223,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\Denis\\source\\MarvelAPI\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
@@ -218,7 +235,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Denis\\source\\MarvelAPI\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
@@ -230,7 +247,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "20241209183610_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\Denis\\source\\MarvelAPI\\Migrations\\20241209183610_InitialCreate.cs",
               "RelativeDocumentMoniker": "Migrations\\20241209183610_InitialCreate.cs",
@@ -242,7 +259,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Denis\\source\\MarvelAPI\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -254,7 +271,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Documentation.cshtml",
               "DocumentMoniker": "C:\\Users\\Denis\\source\\MarvelAPI\\Views\\Home\\Documentation.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Documentation.cshtml",
@@ -266,7 +283,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "About.cshtml",
               "DocumentMoniker": "C:\\Users\\Denis\\source\\MarvelAPI\\Views\\Home\\About.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\About.cshtml",
@@ -278,7 +295,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "SeriesRepository.cs",
               "DocumentMoniker": "C:\\Users\\Denis\\source\\MarvelAPI\\Repositories\\SeriesRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\SeriesRepository.cs",
@@ -290,7 +307,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "PlanetsRepository.cs",
               "DocumentMoniker": "C:\\Users\\Denis\\source\\MarvelAPI\\Repositories\\PlanetsRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\PlanetsRepository.cs",
@@ -302,7 +319,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "MoviesRepository.cs",
               "DocumentMoniker": "C:\\Users\\Denis\\source\\MarvelAPI\\Repositories\\MoviesRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\MoviesRepository.cs",
@@ -314,7 +331,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "CharactersRepository.cs",
               "DocumentMoniker": "C:\\Users\\Denis\\source\\MarvelAPI\\Repositories\\CharactersRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\CharactersRepository.cs",
@@ -326,7 +343,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Series.cs",
               "DocumentMoniker": "C:\\Users\\Denis\\source\\MarvelAPI\\Models\\Series.cs",
               "RelativeDocumentMoniker": "Models\\Series.cs",
@@ -338,7 +355,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Planet.cs",
               "DocumentMoniker": "C:\\Users\\Denis\\source\\MarvelAPI\\Models\\Planet.cs",
               "RelativeDocumentMoniker": "Models\\Planet.cs",
@@ -350,7 +367,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Movie.cs",
               "DocumentMoniker": "C:\\Users\\Denis\\source\\MarvelAPI\\Models\\Movie.cs",
               "RelativeDocumentMoniker": "Models\\Movie.cs",
@@ -362,7 +379,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "Character.cs",
               "DocumentMoniker": "C:\\Users\\Denis\\source\\MarvelAPI\\Models\\Character.cs",
               "RelativeDocumentMoniker": "Models\\Character.cs",
@@ -374,7 +391,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "SeedData.cs",
               "DocumentMoniker": "C:\\Users\\Denis\\source\\MarvelAPI\\Data\\SeedData.cs",
               "RelativeDocumentMoniker": "Data\\SeedData.cs",
@@ -386,7 +403,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "MarvelContext.cs",
               "DocumentMoniker": "C:\\Users\\Denis\\source\\MarvelAPI\\Data\\MarvelContext.cs",
               "RelativeDocumentMoniker": "Data\\MarvelContext.cs",
@@ -398,7 +415,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "SeriesController.cs",
               "DocumentMoniker": "C:\\Users\\Denis\\source\\MarvelAPI\\Controllers\\SeriesController.cs",
               "RelativeDocumentMoniker": "Controllers\\SeriesController.cs",
@@ -410,7 +427,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "PlanetsController.cs",
               "DocumentMoniker": "C:\\Users\\Denis\\source\\MarvelAPI\\Controllers\\PlanetsController.cs",
               "RelativeDocumentMoniker": "Controllers\\PlanetsController.cs",
@@ -422,7 +439,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "MoviesController.cs",
               "DocumentMoniker": "C:\\Users\\Denis\\source\\MarvelAPI\\Controllers\\MoviesController.cs",
               "RelativeDocumentMoniker": "Controllers\\MoviesController.cs",
@@ -434,7 +451,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Denis\\source\\MarvelAPI\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -446,7 +463,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "CharactersController.cs",
               "DocumentMoniker": "C:\\Users\\Denis\\source\\MarvelAPI\\Controllers\\CharactersController.cs",
               "RelativeDocumentMoniker": "Controllers\\CharactersController.cs",
@@ -458,20 +475,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Denis\\source\\MarvelAPI\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Denis\\source\\MarvelAPI\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAmwCMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAmwCoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-09T18:15:27.29Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\Denis\\source\\MarvelAPI\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",

@@ -36,6 +36,18 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"un7agtkzsz"},{"Name":"integrity","Value":"sha256-thayRaSilAHUqpLSbPTxvRqe4kkS9/Ncrn1qCpHAi/s="},{"Name":"label","Value":"_content/MarvelAPI/css/styles.css"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1333"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022thayRaSilAHUqpLSbPTxvRqe4kkS9/Ncrn1qCpHAi/s=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Dec 2024 21:13:06 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MarvelAPI/images/image.3a3ueosuet.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\image.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"3a3ueosuet"},{"Name":"integrity","Value":"sha256-G9r\u002BywaLWv4zAYpCQrANmvuHvFnTHhi1m6jpVza6HoM="},{"Name":"label","Value":"_content/MarvelAPI/images/image.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"212509"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022G9r\u002BywaLWv4zAYpCQrANmvuHvFnTHhi1m6jpVza6HoM=\u0022"},{"Name":"Last-Modified","Value":"Fri, 13 Dec 2024 07:36:25 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MarvelAPI/images/image.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\image.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-G9r\u002BywaLWv4zAYpCQrANmvuHvFnTHhi1m6jpVza6HoM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"212509"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022G9r\u002BywaLWv4zAYpCQrANmvuHvFnTHhi1m6jpVza6HoM=\u0022"},{"Name":"Last-Modified","Value":"Fri, 13 Dec 2024 07:36:25 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/MarvelAPI/images/marvel.o75v190uia.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\marvel.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
