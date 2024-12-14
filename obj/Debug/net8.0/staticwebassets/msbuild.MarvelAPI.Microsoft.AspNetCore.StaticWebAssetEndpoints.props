@@ -36,29 +36,53 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"un7agtkzsz"},{"Name":"integrity","Value":"sha256-thayRaSilAHUqpLSbPTxvRqe4kkS9/Ncrn1qCpHAi/s="},{"Name":"label","Value":"_content/MarvelAPI/css/styles.css"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1333"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022thayRaSilAHUqpLSbPTxvRqe4kkS9/Ncrn1qCpHAi/s=\u0022"},{"Name":"Last-Modified","Value":"Mon, 09 Dec 2024 21:13:06 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/MarvelAPI/images/marvel.o75v190uia.png">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\marvel.png'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/MarvelAPI/images/About.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\About.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"o75v190uia"},{"Name":"integrity","Value":"sha256-JBGFNyulg1Qji8wSFhplvYYyDVDy9IHV5LHOWpL64P4="},{"Name":"label","Value":"_content/MarvelAPI/images/marvel.png"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1195"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022JBGFNyulg1Qji8wSFhplvYYyDVDy9IHV5LHOWpL64P4=\u0022"},{"Name":"Last-Modified","Value":"Wed, 27 Nov 2024 20:26:11 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-5pIIpb/tWDg2TauVFiU5jt2WUkCH1SRfICDv/NAG4e4="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"220103"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u00225pIIpb/tWDg2TauVFiU5jt2WUkCH1SRfICDv/NAG4e4=\u0022"},{"Name":"Last-Modified","Value":"Sat, 14 Dec 2024 12:19:56 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/MarvelAPI/images/marvel.png">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\marvel.png'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/MarvelAPI/images/About.qj6bt0ydgk.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\About.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-JBGFNyulg1Qji8wSFhplvYYyDVDy9IHV5LHOWpL64P4="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1195"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022JBGFNyulg1Qji8wSFhplvYYyDVDy9IHV5LHOWpL64P4=\u0022"},{"Name":"Last-Modified","Value":"Wed, 27 Nov 2024 20:26:11 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"qj6bt0ydgk"},{"Name":"integrity","Value":"sha256-5pIIpb/tWDg2TauVFiU5jt2WUkCH1SRfICDv/NAG4e4="},{"Name":"label","Value":"_content/MarvelAPI/images/About.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"220103"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u00225pIIpb/tWDg2TauVFiU5jt2WUkCH1SRfICDv/NAG4e4=\u0022"},{"Name":"Last-Modified","Value":"Sat, 14 Dec 2024 12:19:56 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/MarvelAPI/images/preview.6542gm2j85.png">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\preview.png'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/MarvelAPI/images/Documentation.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Documentation.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"6542gm2j85"},{"Name":"integrity","Value":"sha256-eol\u002B7KSJMFojeA5RxhrJUfPS5WB5ZGcq8a6M4\u002Bkj6Ws="},{"Name":"label","Value":"_content/MarvelAPI/images/preview.png"}]]]></EndpointProperties>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-RMtL8YG0JOqKFM\u002Bgv5T9JgApZz\u002BVllsMFYUn\u002BllKgI0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"200406"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022RMtL8YG0JOqKFM\u002Bgv5T9JgApZz\u002BVllsMFYUn\u002BllKgI0=\u0022"},{"Name":"Last-Modified","Value":"Sat, 14 Dec 2024 12:19:30 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MarvelAPI/images/Documentation.w7qsd5ihsc.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Documentation.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"w7qsd5ihsc"},{"Name":"integrity","Value":"sha256-RMtL8YG0JOqKFM\u002Bgv5T9JgApZz\u002BVllsMFYUn\u002BllKgI0="},{"Name":"label","Value":"_content/MarvelAPI/images/Documentation.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"200406"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022RMtL8YG0JOqKFM\u002Bgv5T9JgApZz\u002BVllsMFYUn\u002BllKgI0=\u0022"},{"Name":"Last-Modified","Value":"Sat, 14 Dec 2024 12:19:30 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MarvelAPI/images/Home.6542gm2j85.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Home.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"6542gm2j85"},{"Name":"integrity","Value":"sha256-eol\u002B7KSJMFojeA5RxhrJUfPS5WB5ZGcq8a6M4\u002Bkj6Ws="},{"Name":"label","Value":"_content/MarvelAPI/images/Home.png"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"110323"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022eol\u002B7KSJMFojeA5RxhrJUfPS5WB5ZGcq8a6M4\u002Bkj6Ws=\u0022"},{"Name":"Last-Modified","Value":"Fri, 13 Dec 2024 08:48:12 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/MarvelAPI/images/preview.png">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\preview.png'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/MarvelAPI/images/Home.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Home.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-eol\u002B7KSJMFojeA5RxhrJUfPS5WB5ZGcq8a6M4\u002Bkj6Ws="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"110323"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022eol\u002B7KSJMFojeA5RxhrJUfPS5WB5ZGcq8a6M4\u002Bkj6Ws=\u0022"},{"Name":"Last-Modified","Value":"Fri, 13 Dec 2024 08:48:12 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MarvelAPI/images/Marvel.o75v190uia.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Marvel.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"o75v190uia"},{"Name":"integrity","Value":"sha256-JBGFNyulg1Qji8wSFhplvYYyDVDy9IHV5LHOWpL64P4="},{"Name":"label","Value":"_content/MarvelAPI/images/Marvel.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1195"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022JBGFNyulg1Qji8wSFhplvYYyDVDy9IHV5LHOWpL64P4=\u0022"},{"Name":"Last-Modified","Value":"Wed, 27 Nov 2024 20:26:11 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MarvelAPI/images/Marvel.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Marvel.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-JBGFNyulg1Qji8wSFhplvYYyDVDy9IHV5LHOWpL64P4="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1195"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022JBGFNyulg1Qji8wSFhplvYYyDVDy9IHV5LHOWpL64P4=\u0022"},{"Name":"Last-Modified","Value":"Wed, 27 Nov 2024 20:26:11 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/MarvelAPI/js/scripts.cggegkm0pb.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\scripts.js'))</AssetFile>

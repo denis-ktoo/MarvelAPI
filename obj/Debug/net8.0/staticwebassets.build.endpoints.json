@@ -249,53 +249,8 @@
       ]
     },
     {
-      "Route": "images/marvel.o75v190uia.png",
-      "AssetFile": "images/marvel.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1195"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"JBGFNyulg1Qji8wSFhplvYYyDVDy9IHV5LHOWpL64P4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 27 Nov 2024 20:26:11 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "o75v190uia"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-JBGFNyulg1Qji8wSFhplvYYyDVDy9IHV5LHOWpL64P4="
-        },
-        {
-          "Name": "label",
-          "Value": "images/marvel.png"
-        }
-      ]
-    },
-    {
-      "Route": "images/marvel.png",
-      "AssetFile": "images/marvel.png",
+      "Route": "images/About.png",
+      "AssetFile": "images/About.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -308,7 +263,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1195"
+          "Value": "220103"
         },
         {
           "Name": "Content-Type",
@@ -316,23 +271,150 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"JBGFNyulg1Qji8wSFhplvYYyDVDy9IHV5LHOWpL64P4=\""
+          "Value": "\"5pIIpb/tWDg2TauVFiU5jt2WUkCH1SRfICDv/NAG4e4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 27 Nov 2024 20:26:11 GMT"
+          "Value": "Sat, 14 Dec 2024 12:19:56 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-JBGFNyulg1Qji8wSFhplvYYyDVDy9IHV5LHOWpL64P4="
+          "Value": "sha256-5pIIpb/tWDg2TauVFiU5jt2WUkCH1SRfICDv/NAG4e4="
         }
       ]
     },
     {
-      "Route": "images/preview.6542gm2j85.png",
-      "AssetFile": "images/preview.png",
+      "Route": "images/About.qj6bt0ydgk.png",
+      "AssetFile": "images/About.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "220103"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5pIIpb/tWDg2TauVFiU5jt2WUkCH1SRfICDv/NAG4e4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 12:19:56 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qj6bt0ydgk"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5pIIpb/tWDg2TauVFiU5jt2WUkCH1SRfICDv/NAG4e4="
+        },
+        {
+          "Name": "label",
+          "Value": "images/About.png"
+        }
+      ]
+    },
+    {
+      "Route": "images/Documentation.png",
+      "AssetFile": "images/Documentation.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "200406"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RMtL8YG0JOqKFM+gv5T9JgApZz+VllsMFYUn+llKgI0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 12:19:30 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-RMtL8YG0JOqKFM+gv5T9JgApZz+VllsMFYUn+llKgI0="
+        }
+      ]
+    },
+    {
+      "Route": "images/Documentation.w7qsd5ihsc.png",
+      "AssetFile": "images/Documentation.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "200406"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RMtL8YG0JOqKFM+gv5T9JgApZz+VllsMFYUn+llKgI0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 14 Dec 2024 12:19:30 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "w7qsd5ihsc"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-RMtL8YG0JOqKFM+gv5T9JgApZz+VllsMFYUn+llKgI0="
+        },
+        {
+          "Name": "label",
+          "Value": "images/Documentation.png"
+        }
+      ]
+    },
+    {
+      "Route": "images/Home.6542gm2j85.png",
+      "AssetFile": "images/Home.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -371,13 +453,13 @@
         },
         {
           "Name": "label",
-          "Value": "images/preview.png"
+          "Value": "images/Home.png"
         }
       ]
     },
     {
-      "Route": "images/preview.png",
-      "AssetFile": "images/preview.png",
+      "Route": "images/Home.png",
+      "AssetFile": "images/Home.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -409,6 +491,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-eol+7KSJMFojeA5RxhrJUfPS5WB5ZGcq8a6M4+kj6Ws="
+        }
+      ]
+    },
+    {
+      "Route": "images/Marvel.o75v190uia.png",
+      "AssetFile": "images/Marvel.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1195"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JBGFNyulg1Qji8wSFhplvYYyDVDy9IHV5LHOWpL64P4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 27 Nov 2024 20:26:11 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o75v190uia"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JBGFNyulg1Qji8wSFhplvYYyDVDy9IHV5LHOWpL64P4="
+        },
+        {
+          "Name": "label",
+          "Value": "images/Marvel.png"
+        }
+      ]
+    },
+    {
+      "Route": "images/Marvel.png",
+      "AssetFile": "images/Marvel.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1195"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JBGFNyulg1Qji8wSFhplvYYyDVDy9IHV5LHOWpL64P4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 27 Nov 2024 20:26:11 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JBGFNyulg1Qji8wSFhplvYYyDVDy9IHV5LHOWpL64P4="
         }
       ]
     },

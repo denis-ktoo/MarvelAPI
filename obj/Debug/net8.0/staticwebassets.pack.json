@@ -13,12 +13,20 @@
       "PackagePath": "staticwebassets\\css\\styles.css"
     },
     {
-      "Id": "C:\\Users\\Denis\\source\\MarvelAPI\\wwwroot\\images\\marvel.png",
-      "PackagePath": "staticwebassets\\images\\marvel.png"
+      "Id": "C:\\Users\\Denis\\source\\MarvelAPI\\wwwroot\\images\\About.png",
+      "PackagePath": "staticwebassets\\images\\About.png"
     },
     {
-      "Id": "C:\\Users\\Denis\\source\\MarvelAPI\\wwwroot\\images\\preview.png",
-      "PackagePath": "staticwebassets\\images\\preview.png"
+      "Id": "C:\\Users\\Denis\\source\\MarvelAPI\\wwwroot\\images\\Documentation.png",
+      "PackagePath": "staticwebassets\\images\\Documentation.png"
+    },
+    {
+      "Id": "C:\\Users\\Denis\\source\\MarvelAPI\\wwwroot\\images\\Home.png",
+      "PackagePath": "staticwebassets\\images\\Home.png"
+    },
+    {
+      "Id": "C:\\Users\\Denis\\source\\MarvelAPI\\wwwroot\\images\\Marvel.png",
+      "PackagePath": "staticwebassets\\images\\Marvel.png"
     },
     {
       "Id": "C:\\Users\\Denis\\source\\MarvelAPI\\wwwroot\\js\\scripts.js",

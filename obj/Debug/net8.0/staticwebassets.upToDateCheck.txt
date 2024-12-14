@@ -1,8 +1,10 @@
 wwwroot\css\site.css
 wwwroot\css\style.css
 wwwroot\css\styles.css
-wwwroot\images\marvel.png
-wwwroot\images\preview.png
+wwwroot\images\About.png
+wwwroot\images\Documentation.png
+wwwroot\images\Home.png
+wwwroot\images\Marvel.png
 wwwroot\js\scripts.js
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css

@@ -12,7 +12,7 @@ This project is an ASP.NET Core MVC Web API that allows you to explore Marvel Un
 # Preview of the Website
 Below is a preview of the website showcasing its design and functionality:
 
-![Home Preview](https://github.com/denktoo/MarvelAPI/blob/master/wwwroot/images/Preview.png?raw=true)
+![Home Preview](https://github.com/denktoo/MarvelAPI/blob/master/wwwroot/images/Home.png?raw=true)
 
 #### Example Endpoints
 
