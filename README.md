@@ -31,7 +31,7 @@ Below is a preview of the website showcasing its design and functionality:
 ```
 
 **2. Movies**
--  GET `/api/movies/2`
+-  GET `/api/planets/2`
 - Response
 ```
 {
@@ -41,8 +41,11 @@ Below is a preview of the website showcasing its design and functionality:
   "terrain": "Majestic cities, mountains",
   "population": 500000,
   "characters": [
-    "https://localhost:7119/api/characters/3/",
-    "https://localhost:7119/api/characters/30/"
+    "https://localhost:7204/api/characters/3/",
+    "https://localhost:7204/api/characters/30/",
+    "https://localhost:7204/api/characters/101/",
+    "https://localhost:7204/api/characters/108/",
+    "https://localhost:7204/api/characters/111/"
   ]
 }
 ```
