@@ -1,25 +1,24 @@
 ﻿/* Global Styles */
 html, body {
-    height: 100%; /* Ensure full height for the viewport */
+    height: 100%;
     margin: 0;
     font-family: 'Times New Roman';
     background-color: #1e1e1e; /* Cinematic dark gray background */
-    color: #ffffff; /* White text for readability */
+    color: #ffffff; /* White text */
     display: flex;
     flex-direction: column; /* Stack content vertically */
 }
 
-/* Ensure the footer stays at the bottom */
 .footer {
     background-color: #121212; /* Jet Black */
-    color: #ffffff; /* White text for contrast */
-    border-top: 2px solid #d71a1a; /* Red border for emphasis */
+    color: #ffffff;
+    border-top: 2px solid #d71a1a; /* Red border */
     padding: 5px;
     font-size: 0.9rem;
     letter-spacing: 1px;
-    width: 100%; /* Ensure footer spans the entire page width */
-    margin-top: 20px; /* Add spacing from content above */
-    position: relative; /* Allows the footer to scroll with the page */
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
     padding-left: 5%;
 }
 
@@ -70,7 +69,6 @@ html, body {
 
     .nav-link.btn.custom-button:hover {
         background-color: #cc0000; /* Red hover effect */
-/*        color: #cc0000;*/
         color: #121212; /* Black text on hover */
         border-radius: 0; /* Keep it flat for a modern look */
     }
